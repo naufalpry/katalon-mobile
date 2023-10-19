@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="90.348974">
+<testcase classname="Open Default App" name="Open SwagLabs System App" time="65.772427">
+<system-out><![CDATA[Given I open default app....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open Default App" name="Open SwagLabs App to login App" time="13.079703">
+<system-out><![CDATA[When I should see 'Login/android.widget.EditText - Username'................passed
+When I type 'standard_user' on 'Login/android.widget.EditText - Username'...passed
+Then I wait for 1 seconds...................................................passed
+And I should see 'Login/android.widget.EditText - Password'.................passed
+And I type 'secret_sauce' on 'Login/android.widget.EditText - Password'.....passed
+Then I wait for 1 seconds...................................................passed
+And I should see 'Login/android.view.ViewGroup - LoginBtn'..................passed
+And I click 'Login/android.view.ViewGroup - LoginBtn'.......................passed
+Then I wait for 2 seconds...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open Default App" name="Open Product using basic xpath" time="3.522575">
+<system-out><![CDATA[And I should see 'Items/android.widget.TextView - Product'..................passed
+And I click 'Items/android.widget.TextView - Product'.......................passed
+Then I wait for 1 seconds...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open Default App" name="Logout App" time="7.974269">
+<system-out><![CDATA[And I should see 'Items/android.view.ViewGroup - BurgerBtn'.................passed
+And I click 'Items/android.view.ViewGroup - BurgerBtn'......................passed
+Then I wait for 1 seconds...................................................passed
+And I should see 'Logout/android.view.ViewGroup - LogoutBtn'................passed
+And I click 'Logout/android.view.ViewGroup - LogoutBtn'.....................passed
+Then I wait for 1 seconds...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

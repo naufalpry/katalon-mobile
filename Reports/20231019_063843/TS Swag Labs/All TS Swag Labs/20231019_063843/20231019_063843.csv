@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All TS Swag Labs,,,,2023-10-19 06:38:53,2023-10-19 06:48:33,9m - 39.279s,PASSED
+,,,,,,,
+Test Cases/TC login postive case,,,,2023-10-19 06:38:54,2023-10-19 06:39:53,59.077s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/Login-SwagLabs.feature"")",,,,2023-10-19 06:38:54,2023-10-19 06:39:52,57.725s,PASSED
+closeApplication(),,,,2023-10-19 06:39:52,2023-10-19 06:39:53,1.115s,PASSED
+,,,,,,,
+Test Cases/TC see all item using basic xpath,,,,2023-10-19 06:39:53,2023-10-19 06:41:04,1m - 11.350s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/See all item using basic xpath.feature"")",,,,2023-10-19 06:39:53,2023-10-19 06:41:03,1m - 10.128s,PASSED
+closeApplication(),,,,2023-10-19 06:41:03,2023-10-19 06:41:04,1.064s,PASSED
+,,,,,,,
+Test Cases/TC see all item using preciding-siblings,,,,2023-10-19 06:41:04,2023-10-19 06:42:14,1m - 9.757s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/See all item using preciding siblings.feature"")",,,,2023-10-19 06:41:04,2023-10-19 06:42:13,1m - 8.574s,PASSED
+closeApplication(),,,,2023-10-19 06:42:13,2023-10-19 06:42:14,1.021s,PASSED
+,,,,,,,
+Test Cases/TC see pick one product using contains xpath,,,,2023-10-19 06:42:14,2023-10-19 06:43:25,1m - 11.596s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/See pick one product using contains xpath.feature"")",,,,2023-10-19 06:42:14,2023-10-19 06:43:24,1m - 10.397s,PASSED
+closeApplication(),,,,2023-10-19 06:43:24,2023-10-19 06:43:25,1.050s,PASSED
+,,,,,,,
+Test Cases/TC see pick one product using following sibling xpath,,,,2023-10-19 06:43:25,2023-10-19 06:44:36,1m - 10.470s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/See pick one product using following sibling xpath.feature"")",,,,2023-10-19 06:43:25,2023-10-19 06:44:35,1m - 9.263s,PASSED
+closeApplication(),,,,2023-10-19 06:44:35,2023-10-19 06:44:36,1.091s,PASSED
+,,,,,,,
+Test Cases/TC see product and back product using descant xpath,,,,2023-10-19 06:44:36,2023-10-19 06:46:03,1m - 27.092s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/See product and back product using descant xpath.feature"")",,,,2023-10-19 06:44:36,2023-10-19 06:46:02,1m - 25.942s,PASSED
+closeApplication(),,,,2023-10-19 06:46:02,2023-10-19 06:46:03,1.029s,PASSED
+,,,,,,,
+Test Cases/TC see product using start-with xpath,,,,2023-10-19 06:46:03,2023-10-19 06:47:17,1m - 14.247s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/See product using start-with xpath.feature"")",,,,2023-10-19 06:46:03,2023-10-19 06:47:16,1m - 13.095s,PASSED
+closeApplication(),,,,2023-10-19 06:47:16,2023-10-19 06:47:17,1.017s,PASSED
+,,,,,,,
+Test Cases/TC see product with filter using ancestor xpath,,,,2023-10-19 06:47:17,2023-10-19 06:48:33,1m - 15.453s,PASSED
+"runFeatureFile(""Include/features/Homepage Swaglabs/See product with filter using ancestor xpath.feature"")",,,,2023-10-19 06:47:17,2023-10-19 06:48:32,1m - 14.365s,PASSED
+closeApplication(),,,,2023-10-19 06:48:32,2023-10-19 06:48:33,0.967s,PASSED

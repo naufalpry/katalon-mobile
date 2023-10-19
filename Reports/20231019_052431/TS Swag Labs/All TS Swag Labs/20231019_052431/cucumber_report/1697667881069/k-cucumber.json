@@ -1,0 +1,227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "f5fbe914-5785-4aa6-982c-156f9ab6e72c",
+        "line": 2,
+        "name": "Open SwagLabs System App",
+        "description": "",
+        "id": "open-default-app;open-swaglabs-system-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44977513188,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open default app",
+            "match": {
+              "location": "MystepDefinition.I_open_default_app()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "086aeac6-90c4-48db-973c-cbd46447c7a9"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "59e44f08-06cc-4224-9054-f517133923ca",
+        "line": 5,
+        "name": "Open SwagLabs App to login App",
+        "description": "",
+        "id": "open-default-app;open-swaglabs-app-to-login-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1779834492,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see \u0027Login/android.widget.EditText - Username\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login/android.widget.EditText - Username",
+                  "offset": 14
+                }
+              ],
+              "location": "MystepDefinition.I_should_see(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a2744db6-0450-4067-899e-679faf60000f"
+          },
+          {
+            "result": {
+              "duration": 1767837881,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I type \u0027standard_user\u0027 on \u0027Login/android.widget.EditText - Username\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 8
+                },
+                {
+                  "val": "Login/android.widget.EditText - Username",
+                  "offset": 27
+                }
+              ],
+              "location": "MystepDefinition.I_type_on(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d7e96a06-3e05-4d2f-8ef9-e90f2d6d23fe"
+          },
+          {
+            "result": {
+              "duration": 1008745602,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I wait for 1 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 11
+                }
+              ],
+              "location": "MystepDefinition.I_wait_for(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "39ed4ecb-9da1-4a72-86dd-f8719d6d77ae"
+          },
+          {
+            "result": {
+              "duration": 1545764306,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \u0027Login/android.widget.EditText - Password\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login/android.widget.EditText - Password",
+                  "offset": 14
+                }
+              ],
+              "location": "MystepDefinition.I_should_see(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cde636d6-faf2-4db8-b1e2-2adac61a9f38"
+          },
+          {
+            "result": {
+              "duration": 2216109999,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I type \u0027secret_sauce\u0027 on \u0027Login/android.widget.EditText - Password\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 8
+                },
+                {
+                  "val": "Login/android.widget.EditText - Password",
+                  "offset": 26
+                }
+              ],
+              "location": "MystepDefinition.I_type_on(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c1d748cd-734e-42a9-8e49-3296f97dcfd1"
+          },
+          {
+            "result": {
+              "duration": 1008021050,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I wait for 1 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 11
+                }
+              ],
+              "location": "MystepDefinition.I_wait_for(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c97b7036-29a9-469d-a360-6832ecfffd40"
+          },
+          {
+            "result": {
+              "duration": 1611277901,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027Login/android.view.ViewGroup - LoginBtn\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login/android.view.ViewGroup - LoginBtn",
+                  "offset": 14
+                }
+              ],
+              "location": "MystepDefinition.I_should_see(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8a345a78-e565-433b-81e4-a633936d6280"
+          },
+          {
+            "result": {
+              "duration": 516622949,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click \u0027Login/android.view.ViewGroup - LoginBtn\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login/android.view.ViewGroup - LoginBtn",
+                  "offset": 9
+                }
+              ],
+              "location": "MystepDefinition.I_click(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "092ff81b-0f1d-40eb-b9af-97655a8d03ee"
+          },
+          {
+            "result": {
+              "duration": 2007062265,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                }
+              ],
+              "location": "MystepDefinition.I_wait_for(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "a4ed5c41-8235-42ec-b1d4-78a306f96123"
+          }
+        ]
+      }
+    ],
+    "name": "Open Default App",
+    "description": "",
+    "id": "open-default-app",
+    "keyword": "Feature",
+    "uri": "/Users/feeder_aginta/Documents/SauceDemo/Sauce-Demo-Android/Include/features/Homepage Swaglabs/Login-SwagLabs.feature",
+    "tags": []
+  }
+]
