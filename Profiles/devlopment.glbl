@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Users/feeder_aginta/Downloads/Android.SauceLabs.apk'</initValue>
+      <initValue>'/Users/naufalpry/Downloads/astro-release.apk'</initValue>
       <name>appsPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,17 +26,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'8.1'</initValue>
+      <initValue>'14'</initValue>
       <name>deviceVersion</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.telkom.legion'</initValue>
+      <initValue>'com.astro.shop'</initValue>
       <name>appPackage</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'3'</initValue>
       <name>G_Timeout_Short</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.astro.shop.view.activity.SplashActivity'</initValue>
+      <name>appActivity</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

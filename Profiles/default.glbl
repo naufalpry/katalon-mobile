@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Users/feeder_aginta/Downloads/Android.SauceLabs.apk'</initValue>
+      <initValue>'/Users/naufalpry/Downloads/Android.SauceLabs.apk'</initValue>
       <name>appsPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
