@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test run in testrails,,,,2024-02-17 17:40:06,2024-02-17 17:40:58,51.812s,FAILED
+,,,,,,,
+Test Cases/Validate login without account,,,,2024-02-17 17:40:06,2024-02-17 17:40:31,24.576s,FAILED
+"startApplication(""/Users/naufalpry/Downloads/astro-release.apk"", true)",,,,2024-02-17 17:40:07,2024-02-17 17:40:29,21.937s,PASSED
+"tap(findTestObject(""Object Repository/Login/Login without account/android.widget.TextView - Mulai pakai Astro""), 0)",,,,2024-02-17 17:40:29,2024-02-17 17:40:31,2.103s,FAILED
+,,,,,,,
+Test Cases/validate no phone should be filled,,,,2024-02-17 17:40:31,2024-02-17 17:40:58,26.643s,PASSED
+"startApplication(""/Users/naufalpry/Downloads/astro-release.apk"", true)",,,,2024-02-17 17:40:31,2024-02-17 17:40:49,17.736s,PASSED
+"tap(findTestObject(""Object Repository/Login/Validate Phone Null/android.widget.Button""), 0)",,,,2024-02-17 17:40:49,2024-02-17 17:40:52,2.916s,PASSED
+"tap(findTestObject(""Object Repository/Login/Validate Phone Null/android.widget.Button (1)""), 0)",,,,2024-02-17 17:40:52,2024-02-17 17:40:53,0.829s,PASSED
+"tap(findTestObject(""Object Repository/Login/Validate Phone Null/android.widget.TextView - Nomor Handphone""), 0)",,,,2024-02-17 17:40:53,2024-02-17 17:40:53,0.227s,PASSED
+"tap(findTestObject(""Object Repository/Login/Validate Phone Null/android.widget.TextView - Lanjut""), 0)",,,,2024-02-17 17:40:53,2024-02-17 17:40:55,1.537s,PASSED
+"getText(findTestObject(""Object Repository/Login/Validate Phone Null/android.widget.TextView - Isi nomor handphone dulu, yuk""), 0)",,,,2024-02-17 17:40:55,2024-02-17 17:40:55,0.867s,PASSED
+closeApplication(),,,,2024-02-17 17:40:55,2024-02-17 17:40:58,2.214s,PASSED

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="S1 testrun dynamic" time="46.795" tests="2" failures="0" errors="0">
+   <testsuite name="S1 testrun dynamic" tests="2" failures="0" errors="0" time="46.795" skipped="0" timestamp="2024-02-17 18:30:25" hostname="naufalpry - localhost" id="Test Suites/S1 testrun dynamic">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/naufalpry/Downloads/katalon-mobile/Reports/20240217_183014/S1 testrun dynamic/20240217_183014"/>
+         <property name="logFiles" value="/Users/naufalpry/Downloads/katalon-mobile/Reports/20240217_183014/S1 testrun dynamic/20240217_183014/execution0.log, /Users/naufalpry/Downloads/katalon-mobile/Reports/20240217_183014/S1 testrun dynamic/20240217_183014/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="naufalpry - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Validate login without account" time="26.916" classname="Test Cases/Validate login without account" status="PASSED">
+         <system-out><![CDATA[2024-02-17 18:30:25 - [TEST_CASE][PASSED] - Test Cases/Validate login without account: Test Cases/Validate login without account
+
+2024-02-17 18:30:26 - [TEST_STEP][PASSED] - startApplication("/Users/naufalpry/Downloads/astro-release.apk", true): Started app at: '/Users/naufalpry/Downloads/astro-release.apk'
+
+2024-02-17 18:30:26 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2024-02-17 18:30:26 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/21.6.2/bin/node"
+
+2024-02-17 18:30:27 - [MESSAGE][INFO] - Appium server started on port 65,164
+
+2024-02-17 18:30:45 - [MESSAGE][PASSED] - Started app at: '/Users/naufalpry/Downloads/astro-release.apk'
+
+2024-02-17 18:30:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Login without account/android.widget.TextView - Mulai pakai Astro"), 0): Tapped on element 'Object Repository/Login/Login without account/android.widget.TextView - Mulai pakai Astro'
+
+2024-02-17 18:30:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:30:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Login without account/android.widget.TextView - Mulai pakai Astro'
+
+2024-02-17 18:30:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Login without account/android.widget.Button"), 0): Tapped on element 'Object Repository/Login/Login without account/android.widget.Button'
+
+2024-02-17 18:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:30:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Login without account/android.widget.Button'
+
+2024-02-17 18:30:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Login without account/android.widget.TextView - Masuk tanpa akun"), 0): Tapped on element 'Object Repository/Login/Login without account/android.widget.TextView - Masuk tanpa akun'
+
+2024-02-17 18:30:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:30:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Login without account/android.widget.TextView - Masuk tanpa akun'
+
+2024-02-17 18:30:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Login without account/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Login/Login without account/android.widget.ImageView'
+
+2024-02-17 18:30:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:30:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Login without account/android.widget.ImageView'
+
+2024-02-17 18:30:50 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Login/Login without account/android.widget.TextView - Spesial di Astro"), 0): Text of element 'Object Repository/Login/Login without account/android.widget.TextView - Spesial di Astro' is: 'Spesial di Astro 🚀'
+
+2024-02-17 18:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:30:51 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login/Login without account/android.widget.TextView - Spesial di Astro' is: 'Spesial di Astro 🚀'
+
+2024-02-17 18:30:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-17 18:30:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/validate no phone should be filled" time="19.439" classname="Test Cases/validate no phone should be filled" status="PASSED">
+         <system-out><![CDATA[2024-02-17 18:30:52 - [TEST_CASE][PASSED] - Test Cases/validate no phone should be filled: Test Cases/validate no phone should be filled
+
+2024-02-17 18:30:52 - [TEST_STEP][PASSED] - startApplication("/Users/naufalpry/Downloads/astro-release.apk", true): Started app at: '/Users/naufalpry/Downloads/astro-release.apk'
+
+2024-02-17 18:30:52 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2024-02-17 18:30:53 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/21.6.2/bin/node"
+
+2024-02-17 18:30:53 - [MESSAGE][INFO] - Appium server started on port 65,356
+
+2024-02-17 18:31:05 - [MESSAGE][PASSED] - Started app at: '/Users/naufalpry/Downloads/astro-release.apk'
+
+2024-02-17 18:31:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Validate Phone Null/android.widget.Button"), 0): Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.Button'
+
+2024-02-17 18:31:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:31:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.Button'
+
+2024-02-17 18:31:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Validate Phone Null/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.Button (1)'
+
+2024-02-17 18:31:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:31:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.Button (1)'
+
+2024-02-17 18:31:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Validate Phone Null/android.widget.TextView - Nomor Handphone"), 0): Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.TextView - Nomor Handphone'
+
+2024-02-17 18:31:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:31:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.TextView - Nomor Handphone'
+
+2024-02-17 18:31:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Validate Phone Null/android.widget.TextView - Lanjut"), 0): Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.TextView - Lanjut'
+
+2024-02-17 18:31:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:31:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Validate Phone Null/android.widget.TextView - Lanjut'
+
+2024-02-17 18:31:10 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Login/Validate Phone Null/android.widget.TextView - Isi nomor handphone dulu, yuk"), 0): Text of element 'Object Repository/Login/Validate Phone Null/android.widget.TextView - Isi nomor handphone dulu, yuk' is: 'Isi nomor handphone dulu, yuk.'
+
+2024-02-17 18:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-17 18:31:10 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login/Validate Phone Null/android.widget.TextView - Isi nomor handphone dulu, yuk' is: 'Isi nomor handphone dulu, yuk.'
+
+2024-02-17 18:31:10 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-17 18:31:12 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-17 18:30:25 - [TEST_SUITE][PASSED] - S1 testrun dynamic: Test Cases/validate no phone should be filled]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

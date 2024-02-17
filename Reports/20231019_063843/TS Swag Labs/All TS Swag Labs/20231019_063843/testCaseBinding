@@ -1,8 +1,0 @@
-{"testCaseName":"Test Cases/TC login postive case","testCaseId":"Test Cases/TC login postive case","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC see all item using basic xpath","testCaseId":"Test Cases/TC see all item using basic xpath","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC see all item using preciding-siblings","testCaseId":"Test Cases/TC see all item using preciding-siblings","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC see pick one product using contains xpath","testCaseId":"Test Cases/TC see pick one product using contains xpath","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC see pick one product using following sibling xpath","testCaseId":"Test Cases/TC see pick one product using following sibling xpath","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC see product and back product using descant xpath","testCaseId":"Test Cases/TC see product and back product using descant xpath","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC see product using start-with xpath","testCaseId":"Test Cases/TC see product using start-with xpath","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC see product with filter using ancestor xpath","testCaseId":"Test Cases/TC see product with filter using ancestor xpath","iterationVariableName":""}

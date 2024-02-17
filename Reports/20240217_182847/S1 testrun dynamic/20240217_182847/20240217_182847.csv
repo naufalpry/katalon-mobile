@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S1 testrun dynamic,,,,2024-02-17 18:28:58,2024-02-17 18:30:33,1m - 34.956s,FAILED
+,,,,,,,
+Test Cases/Validate login without account,,,,2024-02-17 18:28:58,2024-02-17 18:29:38,39.505s,FAILED
+"startApplication(""/Users/naufalpry/Downloads/astro-release.apk"", true)",,,,2024-02-17 18:28:58,2024-02-17 18:29:38,39.100s,FAILED
+,,,,,,,
+Test Cases/validate no phone should be filled,,,,2024-02-17 18:29:38,2024-02-17 18:30:33,55.054s,FAILED
+"startApplication(""/Users/naufalpry/Downloads/astro-release.apk"", true)",,,,2024-02-17 18:29:38,2024-02-17 18:29:56,18.223s,PASSED
+"tap(findTestObject(""Object Repository/Login/Validate Phone Null/android.widget.Button""), 0)",,,,2024-02-17 18:29:56,2024-02-17 18:30:01,4.351s,PASSED
+"tap(findTestObject(""Object Repository/Login/Validate Phone Null/android.widget.Button (1)""), 0)",,,,2024-02-17 18:30:01,2024-02-17 18:30:33,32.038s,FAILED

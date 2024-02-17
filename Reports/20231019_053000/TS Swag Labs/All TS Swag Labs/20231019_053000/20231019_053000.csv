@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-All TS Swag Labs,,,,2023-10-19 05:30:10,2023-10-19 05:30:53,42.972s,FAILED
-,,,,,,,
-Test Cases/TC see all item using basic xpath,,,,2023-10-19 05:30:10,2023-10-19 05:30:53,42.770s,FAILED
-"runFeatureFile(""Include/features/Homepage Swaglabs/See all item using basic xpath.feature"")",,,,2023-10-19 05:30:10,2023-10-19 05:30:53,42.552s,FAILED
